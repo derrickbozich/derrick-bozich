@@ -5,6 +5,12 @@
 
 header{
   font-family: 'Libre Franklin', sans-serif;
+  z-index: 1;
+}
+
+.main{
+  background: url(/images/derrick-1.jpg) no-repeat center;
+
 }
 
 #sub-header {
@@ -13,12 +19,26 @@ header{
 
 .wrapper {
   text-align: center;
+
+}
+
+.content{
+  text-align: center;
+}
+
+.email{
+  font-size: 1.5em;
+
 }
 
 #enter{
-  border: 2px solid;
-  border-radius: 4px;
+
 }
+#index-photo {
+  width: 100%;
+  height: 100%;
+}
+
 
 .nav.home{
   font-family: 'Libre Franklin', sans-serif;
@@ -29,15 +49,36 @@ header{
 .nav{
   font-family: 'Roboto', sans-serif;
   display: inline;
-
-  top: 20px;
+  padding: 20px;
+  top: 80px;
 }
 
-a:visited {
-  color: black;
+a {
+  color: #000;
   text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 div {
   font-family: 'Roboto', sans-serif;
+
 }
+
+.div_hover {
+   background-color: #FFFFFF;
+   display: inline;
+   padding: 20px;
+   border: 2px solid;
+   border-radius: 4px;
+   color: black;
+}
+
+.div_hover:hover {
+  background-color: #000000;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: white;
+ }
